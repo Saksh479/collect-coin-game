@@ -1,8 +1,8 @@
 class mainScene {
     
     preload() {
-        this.load.image('player', '/assets/jojo.png');
-        this.load.image('coin', '/assets/coin.png');
+        this.load.image('player', 'assets/jojo.png');
+        this.load.image('coin', 'assets/coin.png');
         // Add event listeners for load errors
     this.load.on('filecomplete-image-player', (key, type, data) => {
         console.log(`Loaded image: ${key}`);
